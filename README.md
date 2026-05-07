@@ -9,17 +9,13 @@
 
 ---
 
-## 📁 Archivos de las Practicas
+## 📁 Archivos de las Prácticas
 
+### 🔹 [Práctica 1: Conceptos Básicos y Listas](./2026_TP1_Listas.pdf)
 
+### 🔹 [Práctica 2: Árboles Binarios](./2026_TP2_AB%20(2).pdf)
 
-### 🔹 [Práctica 1: Conceptos Básicos y Listas]("C:\Users\Oderay\OneDrive\Documentos\GitHub\AYED-Practicas\2026_TP1_Listas.pdf")
-
-
-### 🔹 [Práctica 2: Árboles Binarios]("C:\Users\Oderay\OneDrive\Documentos\GitHub\AYED-Practicas\2026_TP2_AB (2).pdf")
-
-
-### 🔹 [Práctica 3: Árboles Generales]("C:\Users\Oderay\OneDrive\Documentos\GitHub\AYED-Practicas\2026_TP3_AG.pdf")
+### 🔹 [Práctica 3: Árboles Generales](./2026_TP3_AG.pdf)
 
 ---
 
