@@ -2,6 +2,14 @@
 
 ¡Hola! En este repositorio voy subiendo las resoluciones de las prácticas y ejercicios de parcial de la materia **Algoritmos y Estructuras de Datos**, cursada en la Facultad de Informática de la UNLP.
 
+---
+
+## ⚠️ Disclaimer
+> [!IMPORTANT]
+> Las resoluciones compartidas en este repositorio son de carácter personal. No representan necesariamente las soluciones oficiales de las cátedras. Úsalos como guía de estudio.
+
+---
+
 ## 🚀 Tecnologías Utilizadas
 * **Lenguaje:** Java
 * **IDE:** Eclipse
@@ -16,16 +24,15 @@
 ### 🔹 [Práctica 2: Árboles Binarios](./2026_TP2_AB%20(2).pdf)
 
 ### 🔹 [Práctica 3: Árboles Generales](./2026_TP3_AG.pdf)
-
 ---
 
 ## 📝 Parciales Resueltos
-Además de las prácticas, he incluido resoluciones de parciales reales para practicar lógica de exámenes:
-* **Árboles Binarios:** Procesadores de árboles y filtrado de datos.
-* **Árboles Generales:** Caminos más largos y paridad alternante.
+
+ Además de las prácticas, acá dejo las resoluciones que hice de parciales para practicar la lógica de los exámenes. Hay de todo un poco::
+
+### 📂 [Mis-Parciales-Practica-UNLP](https://github.com/oderayferrer/Mis-Parciales-Practica-UNLP)
 
 ---
-
 ## 📬 Contacto
 ¿Tenés alguna duda, querés conectar o ténes alguna correción?
 
