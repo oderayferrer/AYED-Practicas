@@ -1,0 +1,62 @@
+/*
+1. Escriba tres métodos de clase (static) que reciban por parámetro dos números enteros (tipo
+int) a y b e impriman todos los números enteros comprendidos entre a; b (inclusive), uno por
+cada línea en la salida estándar. Para ello, dentro de una nueva clase escriba un método por
+cada uno de los siguientes incisos:
+a. Que realice lo pedido con un for.
+b. Que realice lo pedido con un while.
+c. Que realice lo pedido sin utilizar estructuras de control iterativas (for, while, do
+while).
+Por último, escriba en el método de clase main el llamado a cada uno de los métodos
+creados, con valores de ejemplo. En su computadora, ejecute el programa y verifique
+que se cumple con lo pedido.
+
+ */
+package tp1.ejercicio1;
+
+/**
+ *
+ * @author Oderay
+ */
+public class ejercicio1 {
+    public static void imprimirConFor(int a, int b){
+        if(a<=b){
+            for(int i = a; i<=b; i++){
+                System.out.println(i);
+            }
+        }
+        else{
+           for(int i=a; i>=b; i--){
+                 System.out.println(i);
+                    }
+                    }
+        
+    }
+    
+    public static void imprimirConWhile(int a, int b){
+        int i=a;
+        if(a<=b){
+            while(i<=b){
+                System.out.println(i);
+                i++;
+            }
+        }
+        else{
+            while(i>=b){
+                System.out.println(i);
+                i--;
+            }
+        }
+    }
+    public static void imprimirRecursivo(int a, int b){
+        if(a!=b){  
+            if(a>b){
+                imprimirRecursivo(a + 1, b);
+            }
+            else{
+                imprimirRecursivo(a-1,b);
+            }
+        }
+
+    }
+}
