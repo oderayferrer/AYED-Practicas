@@ -1,22 +1,9 @@
-# Archivos compilados (Java bytecode)
 *.class
-
-# Carpeta donde Eclipse guarda los ejecutables
-bin/
-
-# Archivos de configuración de metadatos de Eclipse
 .metadata/
-.recommenders/
-
-# Archivos específicos del proyecto de Eclipse
-# (Opcional: algunos prefieren subirlos, pero lo ideal es que cada uno configure su IDE)
+bin/
 .settings/
 .project
 .classpath
-
-# Archivos temporales de sistema
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
+.txt
