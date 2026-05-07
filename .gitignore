@@ -1,9 +1,32 @@
+# --- JAVA & COMPILACIÓN ---
 *.class
-.metadata/
+*.log
+*.jar
+*.war
 bin/
+build/
+dist/
+
+# --- ECLIPSE ---
+.metadata/
+.recommenders/
 .settings/
 .project
 .classpath
+.loadpath
+
+# --- NETBEANS ---
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --- SISTEMA OPERATIVO ---
 .DS_Store
 Thumbs.db
-.txt
+
+# --- ARCHIVOS TEMPORALES ---
+*.tmp
+*.bak
+*.swp
