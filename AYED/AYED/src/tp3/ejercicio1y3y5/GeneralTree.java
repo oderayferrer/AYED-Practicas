@@ -96,10 +96,10 @@ public class GeneralTree<T> {
 		int res = -1;
 		GeneralTree<T> aux;
 		Queue<GeneralTree<T>> queue = new Queue<GeneralTree<T>>();
-		if(!this.isEmpty()) {
-			queue.enqueue(this);
-			queue.enqueue(null);
-		}
+		
+		queue.enqueue(this);
+		queue.enqueue(null);
+		
 		while(!queue.isEmpty() && res == -1) {
 			aux = queue.dequeue();
 			
@@ -157,5 +157,51 @@ public class GeneralTree<T> {
 			}
 		}
 		return maxAncho;
+	}
+	
+	public boolean esAncestro(T a, T b) {
+		if(this.isEmpty()) return false;
+		else return isAncestro(a,b);
+	}
+	
+	public boolean isAncestro(T a, T b) {
+		boolean res = false;
+		
+		GeneralTree<T> raiz = null;
+		GeneralTree<T> ab;
+		Queue<GeneralTree<T>> queue = new Queue<GeneralTree<T>>();
+		queue.enqueue(this);
+		while(!queue.isEmpty()) {
+			ab= queue.dequeue();
+			if(ab.getData().equals(b) && (!res)) return false;
+			if(ab.getData().equals(a)) {
+				res = true;
+				raiz = ab;
+			}
+			if(!res) {
+				for(GeneralTree<T> child: ab.getChildren()) {
+					queue.enqueue(child);
+				}
+			}
+		}
+		return res ? esAncestroHelper(raiz,b):false;
+	}
+	
+	private boolean esAncestroHelper(GeneralTree<T> ab, T b) {
+		boolean res= false;
+		GeneralTree<T> aux;
+		Queue<GeneralTree<T>> queue = new Queue<GeneralTree<T>>();
+		queue.enqueue(this);
+		while(!queue.isEmpty()) {
+			aux = queue.dequeue();
+			if(aux.getData().equals(b)) {
+				res = true;
+			}else {
+				for(GeneralTree<T> child : ab.getChildren()) {
+					queue.enqueue(child);
+				}
+			}
+		}
+		return res;
 	}
 }
