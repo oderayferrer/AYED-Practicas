@@ -28,7 +28,7 @@
 
 ## 📝 Parciales Resueltos
 
- Además de las prácticas, acá dejo las resoluciones que hice de parciales para practicar la lógica de los exámenes. Hay de todo un poco::
+ Además de las prácticas, acá dejo las resoluciones que hice de parciales para practicar la lógica de los exámenes. Hay de todo un poco:
 
 ### 📂 [Mis-Parciales-Practica-UNLP](https://github.com/oderayferrer/Mis-Parciales-Practica-UNLP)
 
