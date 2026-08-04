@@ -25,7 +25,7 @@
 
 ### 🔹 [Práctica 3: Árboles Generales](./2026_TP3_AG.pdf)
 
-### 🔹 [Practica 5: Grafos](./TP5_Grafos.pdf)
+### 🔹 [Práctica 5: Grafos](./TP5_Grafos.pdf)
 ---
 
 ## 📝 Parciales Resueltos
