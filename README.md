@@ -24,6 +24,8 @@
 ### 🔹 [Práctica 2: Árboles Binarios](./2026_TP2_AB%20(2).pdf)
 
 ### 🔹 [Práctica 3: Árboles Generales](./2026_TP3_AG.pdf)
+
+### 🔹 [Práctica 5: Grafos](./TP5_Grafos.pdf)
 ---
 
 ## 📝 Parciales Resueltos
